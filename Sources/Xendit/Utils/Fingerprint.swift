@@ -9,7 +9,6 @@ import Foundation
 import UIKit
 import SystemConfiguration.CaptiveNetwork
 import CoreLocation
-import XenditObjC
 
 
 class Fingerprint: NSObject {

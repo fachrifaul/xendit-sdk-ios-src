@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.swift_versions = ["4", "5"]
   s.source       = { :git => 'https://github.com/xendit/xendit-sdk-ios-src.git', :tag => s.version }
   s.source_files = "Sources/**/*.{h,m,swift}"
-  s.ios.vendored_frameworks = 'CardinalMobile.framework'
+#  s.ios.vendored_frameworks = 'CardinalMobile.framework'
   s.pod_target_xcconfig = { 'ONLY_ACTIVE_ARCH' => 'YES', 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64 i386' }
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64 i386' }
 end

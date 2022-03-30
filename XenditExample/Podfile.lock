@@ -1,0 +1,16 @@
+PODS:
+  - Xendit (3.6.0)
+
+DEPENDENCIES:
+  - Xendit (from `../`)
+
+EXTERNAL SOURCES:
+  Xendit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Xendit: f64c4c33bdf0d14d179fcc30f4944700024a7eba
+
+PODFILE CHECKSUM: 2002fef477ef507965085b036795c46523279a0b
+
+COCOAPODS: 1.11.2

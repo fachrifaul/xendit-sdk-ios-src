@@ -7,8 +7,7 @@
 //
 
 import Foundation
-import CardinalMobile
-import XenditObjC
+//import CardinalMobile
 
 
 @objcMembers
@@ -19,7 +18,7 @@ import XenditObjC
     // Publishable key
     public static var publishableKey: String?
 
-    private static var cardinalSession: CardinalSession!
+//    private static var cardinalSession: CardinalSession!
     private static var isSetup = false
 
     // Create token method with billing details and customer object

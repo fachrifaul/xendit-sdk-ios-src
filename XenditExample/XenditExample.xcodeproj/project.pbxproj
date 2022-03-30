@@ -16,16 +16,16 @@
 		39C01AD82185BA2F0035C82C /* Authenticate3DSScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C01AD72185BA2F0035C82C /* Authenticate3DSScreen.swift */; };
 		39C01ADA2185C5540035C82C /* Authenticate3DSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C01AD92185C5540035C82C /* Authenticate3DSUITests.swift */; };
 		39C01ADC2185C6470035C82C /* TestCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C01ADB2185C6470035C82C /* TestCards.swift */; };
+		618C3097680049B119936460 /* Pods_XenditExample_XenditExampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 407CB4F7295CB950EA892F2A /* Pods_XenditExample_XenditExampleUITests.framework */; };
 		946B4D771E8A6BCB0085EE04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946B4D761E8A6BCB0085EE04 /* AppDelegate.swift */; };
 		946B4D7C1E8A6BCB0085EE04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 946B4D7A1E8A6BCB0085EE04 /* Main.storyboard */; };
 		946B4D7E1E8A6BCB0085EE04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 946B4D7D1E8A6BCB0085EE04 /* Assets.xcassets */; };
 		946B4D811E8A6BCB0085EE04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 946B4D7F1E8A6BCB0085EE04 /* LaunchScreen.storyboard */; };
-		947672491E8C1AD0004FD8E0 /* Xendit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 947672481E8C1AD0004FD8E0 /* Xendit.framework */; };
-		9476724A1E8C1AD0004FD8E0 /* Xendit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 947672481E8C1AD0004FD8E0 /* Xendit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		94DED2151E8D2DAC0092BEB7 /* CreateTokenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DED2141E8D2DAC0092BEB7 /* CreateTokenViewController.swift */; };
 		94DED2171E8D3CE90092BEB7 /* CreateAuthentification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DED2161E8D3CE90092BEB7 /* CreateAuthentification.swift */; };
 		94DED2191E8D45ED0092BEB7 /* ValidateCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DED2181E8D45ED0092BEB7 /* ValidateCardViewController.swift */; };
 		94DED21B1E8D4BC70092BEB7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DED21A1E8D4BC70092BEB7 /* ViewController.swift */; };
+		C3B02C76BA7FE0DC627734E8 /* Pods_XenditExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C2AF457ED5C5C06AB82116B /* Pods_XenditExample.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,20 +37,6 @@
 			remoteInfo = XenditExample;
 		};
 /* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		9476724B1E8C1AD1004FD8E0 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 12;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				9476724A1E8C1AD0004FD8E0 /* Xendit.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		39C01AC0218355D90035C82C /* XenditExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XenditExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,6 +50,10 @@
 		39C01AD72185BA2F0035C82C /* Authenticate3DSScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authenticate3DSScreen.swift; sourceTree = "<group>"; };
 		39C01AD92185C5540035C82C /* Authenticate3DSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authenticate3DSUITests.swift; sourceTree = "<group>"; };
 		39C01ADB2185C6470035C82C /* TestCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCards.swift; sourceTree = "<group>"; };
+		407CB4F7295CB950EA892F2A /* Pods_XenditExample_XenditExampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XenditExample_XenditExampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C2AF457ED5C5C06AB82116B /* Pods_XenditExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XenditExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		55E3BF0758BC246B8BACDB6B /* Pods-XenditExample-XenditExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XenditExample-XenditExampleUITests.release.xcconfig"; path = "Target Support Files/Pods-XenditExample-XenditExampleUITests/Pods-XenditExample-XenditExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		922FCACDCA19D66616686A4B /* Pods-XenditExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XenditExample.debug.xcconfig"; path = "Target Support Files/Pods-XenditExample/Pods-XenditExample.debug.xcconfig"; sourceTree = "<group>"; };
 		946B4D731E8A6BCA0085EE04 /* XenditExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XenditExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		946B4D761E8A6BCB0085EE04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		946B4D7B1E8A6BCB0085EE04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -75,6 +65,8 @@
 		94DED2161E8D3CE90092BEB7 /* CreateAuthentification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAuthentification.swift; sourceTree = "<group>"; };
 		94DED2181E8D45ED0092BEB7 /* ValidateCardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidateCardViewController.swift; sourceTree = "<group>"; };
 		94DED21A1E8D4BC70092BEB7 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9CEC30B33E11F1815AC32596 /* Pods-XenditExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XenditExample.release.xcconfig"; path = "Target Support Files/Pods-XenditExample/Pods-XenditExample.release.xcconfig"; sourceTree = "<group>"; };
+		E14245CF4143A02F8429FF68 /* Pods-XenditExample-XenditExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XenditExample-XenditExampleUITests.debug.xcconfig"; path = "Target Support Files/Pods-XenditExample-XenditExampleUITests/Pods-XenditExample-XenditExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				618C3097680049B119936460 /* Pods_XenditExample_XenditExampleUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,13 +82,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				947672491E8C1AD0004FD8E0 /* Xendit.framework in Frameworks */,
+				C3B02C76BA7FE0DC627734E8 /* Pods_XenditExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C4F3BBF536E5B445E03465D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C2AF457ED5C5C06AB82116B /* Pods_XenditExample.framework */,
+				407CB4F7295CB950EA892F2A /* Pods_XenditExample_XenditExampleUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		39C01AC1218355D90035C82C /* XenditExampleUITests */ = {
 			isa = PBXGroup;
 			children = (
@@ -129,6 +131,17 @@
 			path = Screens;
 			sourceTree = "<group>";
 		};
+		8EA9195FADB9CF1C3D92F1DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				922FCACDCA19D66616686A4B /* Pods-XenditExample.debug.xcconfig */,
+				9CEC30B33E11F1815AC32596 /* Pods-XenditExample.release.xcconfig */,
+				E14245CF4143A02F8429FF68 /* Pods-XenditExample-XenditExampleUITests.debug.xcconfig */,
+				55E3BF0758BC246B8BACDB6B /* Pods-XenditExample-XenditExampleUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		946B4D6A1E8A6BCA0085EE04 = {
 			isa = PBXGroup;
 			children = (
@@ -136,6 +149,8 @@
 				946B4D751E8A6BCA0085EE04 /* XenditExample */,
 				39C01AC1218355D90035C82C /* XenditExampleUITests */,
 				946B4D741E8A6BCA0085EE04 /* Products */,
+				8EA9195FADB9CF1C3D92F1DB /* Pods */,
+				2C4F3BBF536E5B445E03465D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -179,9 +194,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 39C01AC9218355D90035C82C /* Build configuration list for PBXNativeTarget "XenditExampleUITests" */;
 			buildPhases = (
+				98837CFD4909ABE5F7755D33 /* [CP] Check Pods Manifest.lock */,
 				39C01ABC218355D90035C82C /* Sources */,
 				39C01ABD218355D90035C82C /* Frameworks */,
 				39C01ABE218355D90035C82C /* Resources */,
+				35A63A49142BD42D6A92FAC5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -197,10 +214,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 946B4D851E8A6BCB0085EE04 /* Build configuration list for PBXNativeTarget "XenditExample" */;
 			buildPhases = (
+				0303008072DC3AA47B307F2C /* [CP] Check Pods Manifest.lock */,
 				946B4D6F1E8A6BCA0085EE04 /* Sources */,
 				946B4D701E8A6BCA0085EE04 /* Frameworks */,
 				946B4D711E8A6BCA0085EE04 /* Resources */,
-				9476724B1E8C1AD1004FD8E0 /* Embed Frameworks */,
+				6041FD7D917E17D97AD70015 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -228,7 +246,7 @@
 					};
 					946B4D721E8A6BCA0085EE04 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = YTAZRVVYUC;
+						DevelopmentTeam = AK67DH72N8;
 						LastSwiftMigration = 1000;
 						ProvisioningStyle = Automatic;
 					};
@@ -272,6 +290,89 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0303008072DC3AA47B307F2C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XenditExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		35A63A49142BD42D6A92FAC5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-XenditExample-XenditExampleUITests/Pods-XenditExample-XenditExampleUITests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Xendit/Xendit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Xendit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-XenditExample-XenditExampleUITests/Pods-XenditExample-XenditExampleUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6041FD7D917E17D97AD70015 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-XenditExample/Pods-XenditExample-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Xendit/Xendit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Xendit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-XenditExample/Pods-XenditExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98837CFD4909ABE5F7755D33 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XenditExample-XenditExampleUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		39C01ABC218355D90035C82C /* Sources */ = {
@@ -334,6 +435,7 @@
 /* Begin XCBuildConfiguration section */
 		39C01AC7218355D90035C82C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E14245CF4143A02F8429FF68 /* Pods-XenditExample-XenditExampleUITests.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -357,6 +459,7 @@
 		};
 		39C01AC8218355D90035C82C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55E3BF0758BC246B8BACDB6B /* Pods-XenditExample-XenditExampleUITests.release.xcconfig */;
 			buildSettings = {
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -492,13 +595,15 @@
 		};
 		946B4D861E8A6BCB0085EE04 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 922FCACDCA19D66616686A4B /* Pods-XenditExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = YTAZRVVYUC;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = AK67DH72N8;
 				INFOPLIST_FILE = XenditExample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = co.xendit.XenditExample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bukalapak.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 			};
@@ -506,13 +611,15 @@
 		};
 		946B4D871E8A6BCB0085EE04 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CEC30B33E11F1815AC32596 /* Pods-XenditExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = YTAZRVVYUC;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = AK67DH72N8;
 				INFOPLIST_FILE = XenditExample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = co.xendit.XenditExample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bukalapak.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 			};
